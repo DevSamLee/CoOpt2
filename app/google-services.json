@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "60094243790",
+    "project_id": "second-co-opt",
+    "storage_bucket": "second-co-opt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60094243790:android:2a1c3fcb17e9237d78419f",
+        "android_client_info": {
+          "package_name": "com.example.second_co_opt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvs6KYIOHNBuDr4sPLCiQEO-CddvWVX44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
