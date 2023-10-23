@@ -1,7 +1,10 @@
+<!-- AndroidManifest.xml Documentation -->
+
+<!-- The root element of the AndroidManifest file -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.second_co_opt">
-
+    <!-- Application Configuration -->
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Second_Co_opt"
         tools:targetApi="31">
+        <!-- Main Activity Configuration -->
         <activity
             android:name="com.example.second_co_opt.activities.MainActivity"
             android:exported="true">
@@ -20,15 +24,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- Insertion Activity Configuration -->
         <activity
             android:name="com.example.second_co_opt.activities.InsertionActivity"
             android:exported="true" />
+        <!-- Fetching Activity Configuration -->
         <activity
             android:name="com.example.second_co_opt.activities.FetchingActivity"
             android:exported="true" />
+        <!-- Employee Details Activity Configuration -->
         <activity
             android:name="com.example.second_co_opt.activities.EmployeeDetailsActivity"
             android:exported="true" />
     </application>
 
 </manifest>
+
