@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FetchingActivity">
+    tools:context=".activities.FetchingActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvEmp"
@@ -24,7 +24,7 @@
         android:id="@+id/tvLoadingData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Loading Data....."
+        android:text="@string/loading_data"
         android:textSize="28sp"
         android:textColor="@color/black"
         android:textStyle="bold"

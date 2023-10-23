@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".InsertionActivity">
+    tools:context=".activities.InsertionActivity">
 
     <EditText
         android:id="@+id/etEmpName"
@@ -13,11 +13,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:ems="10"
+        android:hint="@string/enter_name"
         android:inputType="textPersonName"
-        android:hint="Enter name"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints=""
+        tools:ignore="VisualLintTextFieldSize" />
 
     <EditText
         android:id="@+id/etEmpAge"
@@ -25,11 +28,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:ems="10"
+        android:hint="@string/enter_age"
         android:inputType="textPersonName"
-        android:hint="Enter age"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etEmpName" />
+        app:layout_constraintTop_toBottomOf="@+id/etEmpName"
+        android:autofillHints=""
+        tools:ignore="VisualLintTextFieldSize" />
 
     <EditText
         android:id="@+id/etEmpSalary"
@@ -37,18 +43,21 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:ems="10"
+        android:hint="@string/enter_salary"
         android:inputType="textPersonName"
-        android:hint="Enter salary"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etEmpAge" />
+        app:layout_constraintTop_toBottomOf="@+id/etEmpAge"
+        android:autofillHints=""
+        tools:ignore="VisualLintTextFieldSize" />
 
     <Button
         android:id="@+id/btnSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Save Data"
+        android:text="@string/save_data"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etEmpSalary" />
