@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Firebase Realtime Database App in Kotlin"
+        android:text="@string/firebase_realtime_database_app_in_kotlin"
         android:layout_marginTop="80dp"
         android:textSize="28sp"
         android:gravity="center"
@@ -23,7 +23,7 @@
         android:id="@+id/btnInsertData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="insert Data"
+        android:text="@string/insert_data"
         android:layout_marginTop="75dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="75dp"
-        android:text="Fetch Data"
+        android:text="@string/fetch_data"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnInsertData" />
